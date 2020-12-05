@@ -62,10 +62,12 @@ p {
     color: #ffffff;
 }
 .bg-primary {
-    background: #333333;
-    color: #f7c08a;
+    background: #f7c08a;
+    color: #333333;
 }
-
+.clr {
+    clear: both;
+}
 /* Navbar */
 #navbar {
     background: #333333;
@@ -140,4 +142,22 @@ p {
 }
 #home-info .info-content p {
     padding-bottom: 30px;
+}
+
+/* Features */
+.box {
+    float: left;
+    width: 33.3%;
+    padding: 50px;
+    text-align: center;
+}
+.box i {
+    margin-bottom: 10px;
+}
+/* Footer */
+#main-footer {
+    text-align: center;
+    background: #444444;
+    color: #ffffff;
+    padding: 10px;
 }
